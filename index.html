@@ -3,50 +3,137 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
-    <p>студия</p>
-    <p>клиенты</p>
-    <p>магазин</p>
-    <p>контакты</p>
-    <p>корзина</p>
-    <h1>Долго, дорого, <br>скрупулезно.</h1>
-    <p>Математически выверенный дизайн <br>
-    для вашего сайта или мобильного приложения.</p>
-    <p>Узнать больше</p>
-    <h2>ВЕБ САЙТЫ</h2>
-    <p>Мир никогда не будет прежним
-    <br>после того когда увидит ваш сайт</p>
-    <p>ЗАКАЗАТЬ</p>
-    <h2>ПРИЛОЖЕНИЯ</h2>
-    <p>Покорите ТОП-10 приложений <br> AppStore и Google Play</p>
-    <p>ЗАКАЗАТЬ</p>
-    <h2>ПРЕЗЕНТАЦИИ</h2>
-    <p>Вы даже не подозреваете <br> насколько вы изумительны</p>
-    <p>ЗАКАЗАТЬ</p>
-
-    <h1>Мы - маленькая, но гордая <br>дизайн-студия из Краснодара</h1>
-    <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>превыше креатива. Работаем не покладая рук, как роботы</p>
-    <h3>ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</h3>
-    <p>- Вебсайтов любой сложности</p>
-    <p>- Мобильных приложений для iOS и Android</p>
-    <p>- Слайдшоу и видео для корпоративных презентаций</p>
-
-    <p>С 2004 года любим точность во всем</p>
-    <p>146%</p>
-    <p>Уровень <br>самоотдачи</p>
-    <p>100%</p>
-    <p>Соблюдение <br>сроков</p>
-    <p>50%</p>
-    <p>Минимальная <br>предоплата</p>
-
-    <h3>NËRDS DESIGN STUDIO</h3>
-    <p>191186, Санкт-Петербург,<br> ул. Большая конюшенная, д.19/8<br><br> тел. +7 (812)275-75-75</p>
-
-    <h2>Давайте дружить, это выгодно!</h2>
-    <p>Скидка 10% для друзей из социальных сетей.</p>
   </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+  <body> 
+	<!--Шапка, главное меню-->
+	<header class="main-header">
+		<div class="container">
+			<nav class="main-navigation">
+			<div class="logo-index">
+			<img src="img/nerds-logo.png"  alt="nёrd's">
+			</div>
+				<ul>
+					<li>
+					<a href="#">студия</a>
+					</li>
+					<li>
+					<a href="#">клиенты</a>
+					</li>
+					<li>
+					<a href="#">магазин</a>
+					</li>
+					<li>
+					<a href="#">контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</div>		
+		<div class="user-basket">
+			<img src="img/cart-icon.png"  alt="корзина">
+			<a class="basket" href="#">корзина</a>
+		</div>
+		<!-- Слоган, картинка-->
+		<div class="slogan-preview">
+			<h1>Долго, дорого, <br>скрупулезно.</h1>
+			<p>Математически выверенный дизайн <br>
+				для вашего сайта или мобильного приложения.</p>
+			<a class="btn" href="#">Узнать больше</a>
+			<img src="img/slider-1.jpg" width="760" height="431"  alt="Изображение">
+		</div>
+	</header>
+	
+	<!-- Содержимое-->
+	<main class="container">
+		
+		<!--Продукция-->
+		<div class="index-production">
+			<div class="index-sites">
+				<img src="img/illustration-1.png" width="300" height="146" alt="WEB-сайты">
+				<b class="index">ВЕБ САЙТЫ</b>
+				<p>Мир никогда не будет прежним
+				<br>после того когда увидит ваш сайт</p>
+				<a class="btn" href="#">ЗАКАЗАТЬ</a>
+			</div>
+			<div class="index-application">
+				<img src="img/illustration-2.png" width="300" height="146" alt="Приложения">
+				<b class="index">ПРИЛОЖЕНИЯ</b>
+				<p>Покорите ТОП-10 приложений <br> AppStore и Google Play</p>
+				<a class="btn" href="#">ЗАКАЗАТЬ</a>
+			</div>
+			<div class="index-application">
+				<img src="img/illustration-3.png" width="300" height="146" alt="Презентации">
+				<b class="index">ПРЕЗЕНТАЦИИ</b>
+				<p>Вы даже не подозреваете <br> насколько вы изумительны</p>
+				<a class="btn" href="#">ЗАКАЗАТЬ</a>
+			</div>
+		</div>	
+		<!--Описание студии-->
+		<div class="index-studio">
+			<div class="left-text">
+				<h1>Мы - маленькая, но гордая <br>дизайн-студия из Краснодара</h1>
+				<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>превыше креатива. Работаем не покладая рук, как роботы</p>
+				<h3>ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</h3>
+				<ul class="index-studio-production">
+					<li>Вебсайтов любой сложности</li>
+					<li>Мобильных приложений для iOS и Android</li>
+					<li>Слайдшоу и видео для корпоративных презентаций</li>	
+				</ul>
+			</div>
+			<div class="right-text">
+				<img src="img/nerds-illustration.jpg" width="360" height="208" alt="Nerds">
+				<table class="index-indicators">
+					<caption class="index-table-capt">С 2004 года любим точность во всем:</caption>
+					<tr class="index-percent">
+						<td>146%</td>
+						<td>100%</td>
+						<td>50%</td>
+					</tr>
+					<tr class="index-table-data">
+						<td >Уровень <br>самоотдачи</td>
+						<td>Соблюдение <br>сроков</td>
+						<td>Минимальная <br>предоплата</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="index-links">
+			<a href="https://htmlacademy.ru/"> <img src="img/logo-1.png" width="199" height="68" alt="htmlacademy"> </a>
+			<a href="#"> <img src="img/logo-2.png" width="199" height="68" alt="borodinski"> </a>
+			<a href="#"> <img src="img/logo-3.png" width="199" height="68" alt="pink"> </a>
+			<a href="#"> <img src="img/logo-4.png" width="199" height="68" alt="mishka"> </a>
+		</div>
+	</main>
+	
+	<footer>
+		<div> class="index-map">
+			<img src="img/maps1.jpg" width="1440" height="416" alt="map">
+			<img src="img/map-marker.png" width="231" height="190" alt="map">
+				<div class="index-contact">
+				<h3>NËRDS DESIGN STUDIO</h3>
+				<p>191186, Санкт-Петербург,<br> ул. Большая конюшенная, д.19/8<br><br> тел. +7 (812)275-75-75</p>
+				<a class="btn" href="#">НАПИШИТЕ НАМ</a>
+				</div>
+		</div>
+		<div> class="index-social>
+			<a href="#"> <img src="img/vk-icon.png" width="26" height="15" alt="VK"> </a>
+			<a href="#"> <img src="img/fb-icon.png" width="26" height="15" alt="FB"> </a>
+			<a href="#"> <img src="img/insta-icon.png" width="26" height="15" alt="Inst"> </a>
+				<div class="index-ps">
+				<h2>Давайте дружить, это выгодно!</h2>
+				<p>Скидка 10% для друзей из социальных сетей.</p>
+				</div>
+		</div>
+		
+
+    
+
+		
+
+		
+	</footer>
+ 
+   
 
   </body>
 </html>
